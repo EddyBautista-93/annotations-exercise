@@ -23,7 +23,7 @@ public class Author extends Person {
     public List<String> publishedBooks() {
         return books;
     }
-
+    @SuppressWarnings("all")
     public void addBook(String book) {
         books.add(book);
     }
